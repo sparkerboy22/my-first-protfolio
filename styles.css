@@ -10,6 +10,7 @@
 .logo  h2{
 font-size: 40px;
 font-weight: 900;
+
 }
 .colour-orange{
     color: #FD6E0A;
@@ -22,9 +23,13 @@ font-weight: 900;
     padding: 18px 35px;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 header{
     background-color: #FFF8F3;
+    background: url("images/developer.png") ,url("images/header_bg.png");
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
     padding: 50px;
 }
 nav{
@@ -45,4 +50,40 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+#banner{
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+font-size: 45px;
+font-weight: 600px;
+color: #474747;
+margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+#banner .banner-image img{
+    
+    max-width: 585px;
+    width: 100%;
+    vertical-align: middle;
 }
